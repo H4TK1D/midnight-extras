@@ -16,6 +16,13 @@
 .title__85643 path {
     fill:hsl(220, 35%, 90%);
 }
+.sidebarRegion__23e6b {
+    background-color: var(--bg-3);
+}
+.contentRegion__23e6b {
+    background-color: var(--bg-3) !important;
+}
+
 /*.button__85643 path {
     fill:hsl(220, 35%, 90%);
 }*/
