@@ -1,0 +1,5 @@
+.visual-refresh body, .visual-refresh .theme-dark {
+	--white: var(--text-1);
+	--white-500: var(--text-1);
+	--button-filled-brand-text:var(--text-1);
+}
