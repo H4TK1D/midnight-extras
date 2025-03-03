@@ -3,3 +3,20 @@
 	--white-500: var(--text-1);
 	--button-filled-brand-text:var(--text-1);
 }
+
+.container__87bf1.checked__87bf1 .slider__87bf1 rect[fill='white'] {
+    fill: var(--text-1) !important;
+}
+
+.button__85643 {
+    display: none !important;
+}
+
+rect[fill='#44a25b'],
+svg[fill='#44a25b'] {
+	fill: var(--online) !important;
+}
+
+.icon__8ac07 path {
+    fill: var(--online) !important;
+}

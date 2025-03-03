@@ -9,12 +9,6 @@
     color: var(--text-3);
 }
 
-.visual-refresh .bg__960e4 {
-    background: url('./Images/SKOVbaQ.png');
-    background-size: cover;
-    background-position: center;
-}
-
 .title__85643 .defaultColor__4bd52 {
     color:hsl(220, 35%, 90%);
 }
