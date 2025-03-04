@@ -12,9 +12,12 @@
     display: none !important;
 }
 
-rect[fill='#44a25b'],
-svg[fill='#44a25b'] {
+rect[fill='#43a25a'],
+svg[fill='#43a25a'] {
 	fill: var(--online) !important;
+}
+.status_a423bd {
+	background-color: var(--online) !important;
 }
 
 .icon__8ac07 path {
