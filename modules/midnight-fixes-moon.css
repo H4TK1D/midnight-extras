@@ -5,8 +5,8 @@
 	content: '';
 	display: var(--moon-icon);
 	position: absolute;
-	width: 75%;
-	height: 75%;
+	width: var(--moon-icon-svg-size);
+	height: var(--moon-icon-svg-size);
 	background: var(--text-4);
 	-webkit-mask-image: var(--moon-icon-url);
 	-webkit-mask-size: var(--moon-icon-size);
