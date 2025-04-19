@@ -1,35 +1,4 @@
-.childWrapper__6e9f8 > svg:not(.favoriteIcon_c9fddf) {
-	display: var(--discord-icon);
-}
-.childWrapper__6e9f8:has(> svg:not(.favoriteIcon_c9fddf))::before {
-	content: '';
-	display: var(--moon-icon);
-	position: absolute;
-	width: var(--moon-icon-svg-size);
-	height: var(--moon-icon-svg-size);
-	background: var(--text-4);
-	-webkit-mask-image: var(--moon-icon-url);
-	-webkit-mask-size: var(--moon-icon-size);
-	-webkit-mask-repeat: none;
-}
-.wrapper__6e9f8:hover .childWrapper__6e9f8::before {
-	/* prettier-ignore */
-	transition: background-color 0.15s ease-out, transform var(--moon-spin-transition);
-	transform: rotate(0deg) scale(1);
-}
-.wrapper__6e9f8:hover > .childWrapper__6e9f8::before,
-.wrapper__6e9f8.selected__6e9f8 > .childWrapper__6e9f8::before {
-	background: white;
-	transform: rotate(-360deg) scale(0.8);
-}
-.lowerBadge_cc5dd2::before {
-	content: '';
-	display: block;
-	position: absolute;
-	width: 24px;
-	height: 24px;
-	transform: translate(-4px, -4px);
-	z-index: -1;
-	background: var(--bg-3);
-	border-radius: 50%;
+.wrapper__6e9f8[data-list-item-id='guildsnav___home'] > .childWrapper__6e9f8::before {
+	width: var(--dms-icon-svg-size-element);
+	height: var(--dms-icon-svg-size-element);
 }

@@ -1,3 +1,5 @@
+@import "midnight-fixes-moon.css";
+
 .visual-refresh body, .visual-refresh .theme-dark {
 	--white: var(--text-1);
 	--white-500: var(--text-1);
