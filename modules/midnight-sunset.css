@@ -1,9 +1,9 @@
 @import "midnight-fixes-moon.css";
 
 .visual-refresh body, .visual-refresh .theme-dark {
-	--white: var(--text-1);
-	--white-500: var(--text-1);
-	--button-filled-brand-text:var(--text-1);
+	--white: var(--text-1) !important;
+	--white-500: var(--text-1) !important;
+	--button-filled-brand-text:var(--text-1) !important;
 }
 
 .container__87bf1.checked__87bf1 .slider__87bf1 rect[fill='white'] {
