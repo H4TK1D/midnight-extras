@@ -1,13 +1,22 @@
+
 @import "midnight-fixes-moon.css";
 
-.visual-refresh body, .visual-refresh .theme-dark {
-	--white: var(--text-1) !important;
-	--white-500: var(--text-1) !important;
-	--button-filled-brand-text:var(--text-1) !important;
+:root {
+	--text-sunset: rgb(220 220 220);
 }
 
+/*noinspection ALL*/
+.visual-refresh body, .visual-refresh .theme-dark {
+    --white: var(--text-sunset) !important;
+    --button-filled-brand-text: var(--text-sunset) !important;
+    --white-500: var(--text-sunset) !important;
+    --control-text-primary-default: var(--text-sunset) !important;
+    --control-text-primary-hover: var(--text-sunset) !important;
+}
+
+/*noinspection ALL*/
 .container__87bf1.checked__87bf1 .slider__87bf1 rect[fill='white'] {
-    fill: var(--text-1) !important;
+    fill: var(--text-sunset) !important;
 }
 
 .button__85643 {
